@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moviewrld</title>
+	<link rel="stylesheet" href="C:\Users\USER\Desktop\OPERATIONS\movie wrld\movie test.css">
+</head>
+<body>
+	<div class="header">
+		<div class="head">
+			<center><a href="#"><img src="C:\Users\USER\Pictures\Screenshot_23-2-2024_9755_.jpeg" alt=""></a></center>
+		<h1>MovieWrld.net</h1>
+		</div><br>
+		<div class="navbar">
+			<nav>
+				<ul>
+					<li><a class="active" href="#">Trending</a></li>
+					<li><a href="#">TV/Series</a></li>
+					<li><a href="#">Animation</a></li>
+					<li><a href="#">Music</a></li>
+					<li><a href="#">Movie</a></li>
+					<li><a href="#">ShortTV</a></li>
+					<li><a href="#">Education</a></li>
+					<li><a href="#">Game</a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</nav>
+		</div>
+	<div id="current_date">
+        <script>
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById("current_date").innerHTML = new Date().toLocaleDateString('en-US', options);
+         </script>
+		 <div class="slider-container">
+			<div class="slider">
+				<div class="slide"><img src="https://serieshd.wiki/wp-content/uploads/2024/07/Deadpool-Wolverine-2024.jpg" alt="Random Image 1"></div>
+            	<div class="slide"><img src="https://cartermatt.com/wp-content/uploads/2024/08/SEAL-Team-season-7-1.webp"></div>
+            	<div class="slide"><img src="https://picsum.photos/600/400?random=3" alt="Random Image 3"></div>
+            	<div class="slide"><img src="https://cartermatt.com/wp-content/uploads/2024/08/SEAL-Team-season-7-1.webp"></div>
+            	<div class="slide"><img src="https://serieshd.wiki/wp-content/uploads/2024/07/Deadpool-Wolverine-2024.jpg" alt="Random Image 5"></div>
+			</div>
+			<a href="#" class="nav-button prev">&#10094;</a>
+			<a href="#" class="nav-button next">&#10095;</a>
+    </div>
+    <input type="text" id="search-bar" placeholder="Search for a movie...">
+    <div id="movie-list"></div>
+	<script src="C:\Users\USER\Desktop\OPERATIONS\movie wrld\movie world.js"></script>  
+	
+    </div>   
+</body>
+</html>
